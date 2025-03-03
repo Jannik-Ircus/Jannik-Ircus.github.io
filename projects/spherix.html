@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Janniks portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/imageSlider.css"/>
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<h1>Spherix</h1>
+					<p>This is about my internship at Wicked Games AG where I worked on a upcoming creature collecting game with real-time combat.</p>
+					 
+			</section>
+
+		<!-- One -->
+			<section id="Project" class="main style1">
+				<!-- Slideshow container -->
+				<div class="slideshow-container">
+
+					<!-- Full-width images with number and caption text -->
+					<div class="mySlides fade">
+					<div class="numbertext">1 / 5</div>
+					<img src="../images/projects/spherix/Spherix1.jpg" style="width:100%">
+					<div class="text">Spherix open world</div>
+					</div>
+				
+					<div class="mySlides fade">
+					<div class="numbertext">2 / 5</div>
+					<img src="../images/projects/spherix/Spherix2.jpg" style="width:100%">
+					<div class="text">Combat</div>
+					</div>
+				
+					<div class="mySlides fade">
+					<div class="numbertext">3 / 5</div>
+					<img src="../images/projects/spherix/Spherix3.jpg" style="width:100%">
+					<div class="text">Inventory</div>
+					</div>
+
+					<div class="mySlides fade">
+					<div class="numbertext">4 / 5</div>
+					<img src="../images/projects/spherix/Spherix5.jpg" style="width:100%">
+					<div class="text">Spherix open world</div>
+					</div>
+
+					<div class="mySlides fade">
+					<div class="numbertext">5 / 5</div>
+					<img src="../images/projects/spherix/Spherix6.jpg" style="width:100%">
+					<div class="text">Teleporter</div>
+					</div>
+					
+				
+					<!-- Next and previous buttons -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
+				
+				<!-- The dots/circles -->
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+					<span class="dot" onclick="currentSlide(5)"></span>
+				</div> 
+		</div>
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<header class="major">
+								<h3>Summary of the project</h3>
+							</header>
+							<p>My internship at Wicked Games AG began on 23.10.2023 and ended on 26.04.2024.
+								Wicked Games Ag is a Swiss company founded by Karstem Mickulcak with Spherix being their first game.
+								The commpany had around 20 employees from all around the world. During work we always communicated in english.
+								It seems that they discontinued development on Spherix a few months after I left.
+							</p>
+							<p>Spherix is a creature collection game with real-time action combat similar to League of Legends. You could capture Spherix, battle, evolve and customize them.
+								It is a multiplayer open world with different kind of quests, events and dungeons. It is made in Unreal Engine 5.
+							</p>
+							<p>
+								The Spherix themself are creatures, small or big, with different elements. They are designed to look animalistic, similar to Pokemon.
+							</p>
+							<p>
+								An official <a href="https://store.steampowered.com/app/2657670/Spherix/">Steam page</a> was published at the start of 2024.
+							</p>
+
+							<header class="major">
+								<h3>My responsibilities</h3>
+							</header>
+							<p>
+								During my 6 month internship I had many different tasks, starting with the whole intruduction process and getting used to the workflow.
+							</p>
+							<p>
+								One of my main tasks was always bugfixing. Using a simplified ticket system I was assigned different bugs and fixed them on a seperate version controll branch.
+								After they got approved, they got merged to the main branch.
+							</p>
+							<p>
+								Outside of bugfixing I also worked on performance and file size. I used Unreals features for Chunks and Labels to reduce file size for multiple compiled gamefiles.
+								To help with performance I worked on several different parts of the game, including texture streaming, nanite optimization and rendering.
+							</p>
+							<p>
+								I also created a few custom Unreal Engine components, like a custom audio brush, which lets you create custom shapes and play audio in them.
+							</p>
+							<p>
+								One of the two main features I worked where teleporters. Working together with a small team consisting of 2 artists and a game designer, we had meetings on how to approach the design and later implemented them.
+								my task was creating an interactable teleporter which teleports the player with a small cutscene to a different teleporter. 
+								For this feature, I created a small system for cutscenes and used it to make multiple animation sequences with different events.
+								One of the main challenges was to make this also work in multiplayer, so I had to implement logic for networking.
+							</p>
+							<p>
+								The other big feature I worked on was Spherix AI in the open world. Together with my team lead we reused a already implemented goal-oriented-action-planning system to controll the Sperix.
+								This was the first time I got in contact with this system, which I later used for my bachelor thesis(I didnt use the actual system, but after working with it, I desiced to base my thesis around this topic).
+							</p>
+							<p>
+								I also worked, together with my team lead, on the Spherix website, which used Directus to create a content-heavy website with easy adjustable content. For that  I worked with JavaScript, HTML and Astro Directus.
+							</p>
+							<p>
+								Some smaller tasks I did where: creating a lot of documentation for the features I did and for some I just worked with, using color.io to make a better workflow for the artists, being part of daily meetings and stand ups, researching and reaching out to font-service providers,
+								creating options for the options menu, creating a small app using .Net to download files from a cloud with a single button or just generally helping out the team with their problems, just like they helped me out.
+							</p>
+
+
+							<header class="major">
+								<h3>What I learned</h3>
+							</header>
+							<p>
+								I have learned a lot of things during my time at Wicked Games Ag.
+							</p>
+							<p>
+								First and most important I learned to work in a normal work environment where I am expected to work for 8 hours a day with sometimes even overtime.
+								Structuring my time around that and learning to efficently work was a played a big part at my internship.
+							</p>
+							<p>
+								Of course I also learned a lot about Unreal Engine and other programms and general systems. Before I started working here I never touched Unreal before and now, after I am done I feel comfortable to keep working with Unreal Engine projects.
+								It is hard to describe just how much I learned during this internship, but it was the biggest learnign experience I ever had, so far.
+							</p>
+							<p>
+								Also working in a big team, where I sometimes have to go to people directly and ask for their help or asking artists for assets, helped me learn to better work in a team.
+								It was also a nice experience to work with so many people from all around the world and learn stuff about their culture or their lifes.
+								Working on this project was really fun and it showed me how cool it is to work on games, even in a work environment.
+							</p>
+
+							<header class="major">
+								<h3>External links</h3>
+							</header>
+							<p>The official Steam page can be found <a href="https://store.steampowered.com/app/2657670/Spherix/">here</a>.</p>
+							<p>The website I worked on is sadly no longer online, so I can't link it.</p>
+						</div>
+						<div class="col-6 col-12-medium imp-medium">
+							<span class="image fit"><img src="images/rundeAnanas.png" alt="" /></span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="https://ircus.itch.io/" class="icon brands alt fa-itch-io"><span class="label">itch.io</span></a></li>
+					<li><a title="bge.jannik@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Jannik Büge. All rights reserved.</li>
+					<li><a href ="legal.html">Legal & Privacy</a></li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src=".:/assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/imageSlider.js"></script>
+
+	</body>
+</html>
