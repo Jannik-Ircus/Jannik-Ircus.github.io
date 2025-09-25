@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Janniks portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/imageSlider.css"/>
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<h1>GET - get in, get stuff, get out</h1>
+					<p>This is was our contribution to the Brackeys Game Jam 2025.2.</p>
+					 
+			</section>
+
+		<!-- One -->
+			<section id="Project" class="main style1">
+				<!-- Slideshow container -->
+				<div class="slideshow-container">
+
+					<!-- Full-width images with number and caption text -->
+					<div class="mySlides fade">
+					<div class="numbertext">1 / 5</div>
+					<img src="../images/projects/Get/Get_Cover_Art.png" style="width:100%">
+					<div class="text">Cover Art</div>
+					</div>
+				
+					<div class="mySlides fade">
+					<div class="numbertext">2 / 5</div>
+					<img src="../images/projects/Get/GetScreenshot1.png" style="width:100%">
+					<div class="text">Kitchen</div>
+					</div>
+				
+					<div class="mySlides fade">
+					<div class="numbertext">3 / 5</div>
+					<img src="../images/projects/Get/GetScreenshot2.png" style="width:100%">
+					<div class="text">Secret Safe</div>
+					</div>
+
+					<div class="mySlides fade">
+					<div class="numbertext">4 / 5</div>
+					<img src="../images/projects/Get/GetScreenshot3.png" style="width:100%">
+					<div class="text">Homeowner from behind</div>
+					</div>
+
+					<div class="mySlides fade">
+					<div class="numbertext">5 / 5</div>
+					<img src="../images/projects/Get/GetScreenshot4.png" style="width:100%">
+					<div class="text">Homeowner from front</div>
+					</div>
+					
+				
+					<!-- Next and previous buttons -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
+				
+				<!-- The dots/circles -->
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+					<span class="dot" onclick="currentSlide(5)"></span>
+				</div> 
+		</div>
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<header class="major">
+								<h3>Summary of the project</h3>
+							</header>
+							<p>GET is a game that was developed from August 24th 2025 to August 31st 2025. 
+								We where a 4 person team with me as the only programmer. 
+								The theme for the gamejam was "Risk It for the Biscuit".
+								We sadly didn't get enough reviews to be considered eligible for the official voting, but the game is still complete and solid.
+							</p>
+							<p>In GET you play a burglar breaking into a house and trying to steal as much valuables as possible without getting caught by the homeowner.
+							You can sneak and quietly open containers and drawers or sprint, quickly open containers and evade the homeowner.
+							</p>
+							<p>
+								The game was made in Unity.
+							</p>
+
+							<header class="major">
+								<h3>My responsibilities</h3>
+							</header>
+							<p>
+								As the only programmer I did all the programming, general setup for the project and more.
+							</p>
+							<p>
+								My main focus points where the movement, the interaction, the gameloop and the enemy AI.
+								Other things like UI, scores, level generating or smaller stuff was also handled by me.
+							</p>
+							<p>
+								The movement uses a simple Character Controller with slight adjustments.
+							</p>
+							<p>
+								The interaction system was made in a way to handle both a instant input or a hold input, where the user holds down the button to perform a slightly different input.
+								Depending on the fast or quick input, most interactions in game have different logic, like drawers opening fast and making noise, alerting the homeowner, or drawers opening slowly and quietly.
+							</p>
+							<p>
+								For the enemy AI of the homeowner I used a simple Behaviour Tree setup where the homeowner reacts to loud noises, wanders through the house or pursues the player.
+							</p>
+
+							<header class="major">
+								<h3>What I learned</h3>
+							</header>
+							<p>
+								During this gamejam I learned to work in a gamejam project as the only programmer and how to communicate with my teammates in this project.
+								I sometimes had to give explicit instructions or requirements for the artists in order for the assets to work correctly.
+							</p>
+							<p>
+								I also learned how to structure a project and that it is a good thing to have a priority list.
+								We had the movement done first, with the interaction system second.
+								This way I could always easily test other new systems, since the core functions where already there.
+							</p>
+
+							<header class="major">
+								<h3>External links</h3>
+							</header>
+							<p>The game can be found on <a href="https://faerylila.itch.io/get-get-in-get-stuff-get-out">Itch.io</a>.</p>
+							<p>The code for the project can be found on <a href="https://github.com/Jannik-Ircus/GameJam0825">github</a>.</p>
+						</div>
+						<div class="col-6 col-12-medium imp-medium">
+							<span class="image fit"><img src="images/rundeAnanas.png" alt="" /></span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="https://ircus.itch.io/" class="icon brands alt fa-itch-io"><span class="label">itch.io</span></a></li>
+					<li><a title="bge.jannik@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Jannik Büge. All rights reserved.</li>
+					<li><a href ="legal.html">Legal & Privacy</a></li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src=".:/assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/imageSlider.js"></script>
+
+	</body>
+</html>
